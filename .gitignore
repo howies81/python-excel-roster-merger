@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Raw input data & generated output files (keep repo lightweight)
+NBA_rosters/
+Output_files/
+*.xls
+*.xlsx
+*.csv
+*.png
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

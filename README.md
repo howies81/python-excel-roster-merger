@@ -1,6 +1,6 @@
 # Automated Multi-File Roster Merger & Excel Generator
 
-A one-click Python data automation pipeline (`pandas` & `openpyxl`) that ingests 30 separate NBA team roster exports, resolves mixed file formats and character encoding issues, standardizes player names and creates mock contact emails, and outputs a presentation-ready Excel workbook.
+A one-click Python data automation pipeline (`pandas` & `openpyxl`) that ingests 30 separate NBA team roster exports from basketball-reference.com, resolves mixed file formats and character encoding issues, standardizes player names and creates mock contact emails, and outputs a presentation-ready Excel workbook.
 
 ## Key Features
 * **Smart Multi-Format Ingestion:** Automatically reads folders of `.xls` files using `pathlib` and seamlessly falls back to HTML table parsing (`pd.read_html`) for web-exported spreadsheets disguised with `.xls` extensions.
